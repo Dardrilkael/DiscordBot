@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.login("ODQ0NjAzMDYyODQ0OTE1NzYy.YKUz5g.w9oA1KSAOzQP-lWMmf0e0x2K5WU");
+client.login(process.env.BOTTOKEN);
 
 client.on("ready",readyDiscord);
 
